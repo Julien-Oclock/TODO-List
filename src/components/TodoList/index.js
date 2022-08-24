@@ -11,11 +11,10 @@ import Form from 'src/components/Form';
 
 // == Composant
 const App = () => (
-  <div className="TodoList">
-    <h1>TodoList</h1>
-    <Task />
-    <Counter />
+  <div className="todoList">
     <Form />
+    <Counter />
+    <Task />
   </div>
 );
 

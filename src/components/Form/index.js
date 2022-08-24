@@ -4,9 +4,9 @@ import './styles.scss'
 
 const Form = () => {
     return (  
-        <div>
-            <h1>Form</h1>
-        </div>
+        <form className="addTaskForm">
+            <input className="addTaskForm__input" placeholder="ajout d'une tâche"></input>
+        </form>
     )
 }
 

@@ -1,0 +1,18 @@
+.addTaskForm {
+    margin-bottom: 4rem;
+}
+
+.addTaskForm__input {
+    background-color: #1c382f;
+    border: 1px solid #183129;
+    box-shadow: inset 0px 0px 25px 25px rgba(0,0,0,0.1);
+    font-size: 1.5em;
+    width: 100%;
+    color: white;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.addTaskForm__input:focus {
+    box-shadow: inset 0px 0px 25px 25px rgba(0,0,0,0.3);
+}

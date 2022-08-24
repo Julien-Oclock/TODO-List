@@ -5,9 +5,7 @@ import './styles.scss'
 const Counter = () => {
 
     return (  
-        <div>
-            <h1>Counter</h1>
-        </div>
+        <h2 className="taskCounter">2 Tâches en cours</h2>
     )
 }
 

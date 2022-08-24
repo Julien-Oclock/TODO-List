@@ -1,0 +1,19 @@
+.taskList {
+    margin-top: 1rem;
+}
+
+.taskList .task {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 0.3em;
+}
+.taskList .task.task--checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.taskList .task__checkbox {
+    margin-right: 1em;
+}
